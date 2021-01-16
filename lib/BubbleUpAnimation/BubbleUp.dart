@@ -49,6 +49,7 @@ class BubbleHome extends State<MybubbleHome> with TickerProviderStateMixin {
         _scoreWidgetStatus = ScoreWidgetStatus.HIDDEN;
       }
     });
+    
 
     scoreSizeAnimationController = new AnimationController(vsync: this, duration: new Duration(milliseconds: 150));
     scoreSizeAnimationController.addStatusListener((status) {
